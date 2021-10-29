@@ -91,9 +91,9 @@ TOTAL - общее кол-во контигов, SUM - общая длина к�
 ## Конец
 Удаляем все ненужные файлы командой rm и создаём репозиторий с помощью git
 >git init  
->git add .
->git commit -m 'initial commit'
->git remote add origin https://github.com/username/projectname.git
+>git add .  
+>git commit -m 'initial commit'  
+>git remote add origin https://github.com/username/projectname.git  
 >git push -u origin master
 
 Вводим логин и PAT токен для регистрации
